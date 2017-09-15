@@ -1,0 +1,48 @@
+<!DOCTYPE html >
+<html
+    xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>CryptoScanner</title>
+        <link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link type="text/css" href="resources/css/main.css"  rel="stylesheet"  />
+        <link type="text/css" href="resources/css/jquery-ui.min.css" rel="stylesheet" />
+        <link type="text/css" href="resources/css/jquery.dataTables.min.css" rel="stylesheet" />
+        <link href="resources/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        </head>
+        <body>
+            <h3>
+                Cryptocurrency market scanner
+            </h3>
+            <div class="row">
+                <div class="col-md-6" id ="tableDiv">
+                    <table id="trendingMarketTable"  class="hover nowrap" >
+                        <thead>
+                            <tr>
+                                <th>Market</th>
+                                <th>Exchange</th>
+                                <th>Current High</th>
+                                <th>Past Low</th>
+                                <th>% drop
+                                    <i class="fa fa-fw fa-sort-desc"></i>
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </body>
+        <!-- External dependencies -->
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="resources/scripts/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript" src="resources/scripts/vendor/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="resources/scripts/vendor/bootstrap-hover-dropdown.min.js"></script>
+        <script type="text/javascript" src="resources/scripts/vendor/jquery.dataTables.js"></script>
+        <script type="text/javascript" src="resources/scripts/vendor/d3.min.js"></script>
+        <script type="text/javascript" src="resources/scripts/custom/market-scanner.js"></script>
+        <script type="text/javascript" src="resources/scripts/custom/listeners.js"></script>
+        <script type="text/javascript" src="resources/scripts/custom/market-table-component.js"></script>
+        <script type="text/javascript" src="resources/scripts/custom/utility.js"></script>
+        <script type="text/javascript" src="resources/scripts/custom/market-data.js"></script>
+    </html>
